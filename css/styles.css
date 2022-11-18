@@ -59,6 +59,12 @@ grid-area: main;
     margin: auto;
 }
 
+#carouselExampleIndicators{
+    width: 20%;
+    height: 25%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
 h1{
     color: brown;
     font-size: 3rem;
@@ -122,6 +128,9 @@ footer{
     height: 20rem;
 }
 
+.formulario{
+    margin-bottom: 100px;
+}
 @media screen and (max-width:1000px){
 .grid-container{
     width: 100%;
