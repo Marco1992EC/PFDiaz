@@ -1,0 +1,14 @@
+$bg-body: #eef4f5;
+$fuente-grande: 3rem;
+$fuente-peque: 1rem;
+$fuente-blanca: #fbfdfd;
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin mis-fotos {
+    width: 20rem;
+    height: 20rem;
+}
+$color-body: pascuas

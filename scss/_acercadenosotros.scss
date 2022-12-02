@@ -1,0 +1,16 @@
+.acerca{
+    background-color:  #c0e6ed
+}
+.grid-container{
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 100px auto 150px;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer"
+}
