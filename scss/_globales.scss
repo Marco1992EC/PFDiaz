@@ -1,5 +1,5 @@
 h1{
-    color: brown;
+    color: red;
     font-size: 3rem;
     margin-top: 3rem;
     font-family: 'Courier New', Courier, monospace;
@@ -11,3 +11,27 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+.opciones-menu{
+    font-weight: bold;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.colorheader{
+        background-color:  #c0e6ed
+}
+
+body{
+    @if $color-bodya == vacacion {
+        background-color:#c0e6ed;
+    } @else if $color-body== clases {
+        background-color: blue;
+    } @else if $fcolor-body == matricula {
+        background-color: red;
+    } @else {
+        background-color: $bg-body;
+        font-style: $fuente-titulos;
+        color: $letra-clara;
+    }
+}
+
