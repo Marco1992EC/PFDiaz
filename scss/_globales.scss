@@ -21,17 +21,4 @@ p{
         background-color:  #c0e6ed
 }
 
-body{
-    @if $color-bodya == vacacion {
-        background-color:#c0e6ed;
-    } @else if $color-body== clases {
-        background-color: blue;
-    } @else if $fcolor-body == matricula {
-        background-color: red;
-    } @else {
-        background-color: $bg-body;
-        font-style: $fuente-titulos;
-        color: $letra-clara;
-    }
-}
 
